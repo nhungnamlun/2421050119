@@ -1,0 +1,182 @@
+body {
+    magin: 0;
+}
+
+.danh-muc {
+    background-color: #198cf0;
+}
+
+.danh-sach-muc {
+    padding: 0;
+    margin: 0;
+    /* bỏ dấu chấm ở danh sách khi dùng ul,li */
+    list-style: none;
+    display: flex;
+    /* gap khoảng cách các đối tượng ở trong */
+    gap: 20px;
+}
+
+.lien-ket {
+    color: white;
+    /* bỏ gạch chân thẻ a*/
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+.trai {
+    width: 20%;
+    height: 160vh;
+    /* tạo đường viền dùng border */
+    /* 3 tham số: độ dày, loại đường viền, màu sắc */
+    border-right: 1px solid #198cf0;
+}
+
+.khoi-dang-nhap {
+    width: 100%;
+    height: 300px;
+}
+
+form {
+    width: 80%;
+    margin: 20px auto;
+}
+
+p {
+    margin: 0;
+}
+
+.khoi-thong-tin {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.chu {
+    color: #198cf0;
+}
+
+.logo {
+    position: fixed;
+    bottom: 20px;
+    margin-left: 0px;
+    width: 13%;
+}
+
+.logo {
+    display: flex;
+    align-item: end;
+    width: 250px;
+}
+
+input {
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.quen-mat-khau {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quen-mat-khau-lien-ket {
+    color: blue;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.login {
+    margin-bottom: 10px;
+}
+
+#mau-dang-nhap {
+    background-color: #6cb5f9;
+    ;
+}
+
+#mau {
+    background-color: #0e7fe1;
+}
+
+.phai {
+    width: 80%;
+    height: 100vh;
+}
+
+.tin {
+    width: 95%;
+    /* height: 200px; */
+    margin: 20px auto;
+    border: 1px solid#198cf0;
+    border-radius: 10px;
+}
+
+.chuc-nang {
+    width: 95%;
+    height: 30px;
+    display: flex;
+    margin: 5px auto;
+    padding: 5px;
+    justify-content: space-between;
+    border-bottom: 1px solid #198cf0;
+
+}
+
+.xem-tiep {
+    color: #198cf0;
+    text-decoration: none;
+}
+
+.lien-ket-xem-tiep {
+    color: #198cf0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.danh-sach-bai {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chi-tiet-bai {
+    width: 23%;
+    /* background:#198cf0 */
+
+}
+
+.anh-bai {
+    width: 100%;
+    border-radius: 10px;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.ngay-dang {
+    text-align: right;
+}
+
+.thong-tin {
+    width: 50%;
+
+}
+
+.ngay-thong-tin {
+    display: flex;
+    justify-content: flex-end;
+    margin: -20px 10px 20px 20px;
+}
+
+.anh-qr {
+    width:13%;
+}
+
+.ngay-thong-tin {
+    color: grey;
+}
