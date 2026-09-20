@@ -60,7 +60,7 @@ p {
 .logo {
     position: fixed;
     bottom: 20px;
-    margin-left: 0px;
+    margin-left: 15px;
     width: 13%;
 }
 
@@ -174,7 +174,7 @@ button {
 }
 
 .anh-qr {
-    width:13%;
+    font-side: 30px;
 }
 
 .ngay-thong-tin {

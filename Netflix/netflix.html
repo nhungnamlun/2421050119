@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<style>
+    body {
+        background-color: #2F2C38;
+        color: white;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-item: center;
+    }
+
+    .danh-sach-muc {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        align-item: center;
+    }
+
+    .lien-ket {
+        color: #DBDBDD;
+
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .dang-chon {
+        background-color: #4E4B52;
+    }
+
+    .muc {
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    .muc:hover {
+        background-color: grey;
+    }
+
+    .logo {
+        width: 10%;
+        padding: 0;
+    }
+
+    .avata {
+        width: 80%;
+        border radius: 30% ;
+    }
+
+    .banner {
+        background-color: aliceblue;
+        width: 95%;
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+
+    .banner-anh {
+        width: 100% ;
+        border-radius:20px;
+    }
+
+    .danh-sach-the-loai {
+        width: 95%;
+        height: 20vh;
+        margin: 20px auto;
+    }
+
+    .phim {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .phim-poster {
+        width: 19%;
+        height: 20vh;
+        background-color: antiquewhite;
+        border-radius: 20px;
+        justify-content:space-around;
+    }
+
+    .danh-sach-nhan-vat {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nhan-vat {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="danh-muc">
+            <ul class="danh-sach-muc">
+                <img class="logo" src="../anh/netflix.svg">
+                <li class="muc"><a href="#" class="lien-ket dang-chon">Trang chủ</a></li>
+                <li class="muc"><a href="#" class="lien-ket">Nhân vật</a></li>
+                <li class="muc"><a href="#" class="lien-ket">Series</a></li>
+                <li class="muc"><a href="#" class="lien-ket">Phim</a></li>
+                <li class="muc"><a href="#" class="lien-ket">Mới & Phổ biến</a></li>
+                <li class="muc"><a href="#" class="lien-ket">Netflix của tôi</a></li>
+                <li class="muc"><a href="#" class="lien-ket">Duyệt tìm theo ngôn ngữ</a></li>
+            </ul>
+        </nav>
+
+        <div class="chuc-nang">
+            <div class="tim-kiem"></div>
+            <div class="thong-tin">
+                <img class="avata" src="../anh/Treem.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+            <img class="banner-anh" src="../anh/hoathinh.jpg" alt="">
+        </div>
+        <div class="danh-sach-the-loai">
+            <div class="the-loai">
+                <div class="ten-the-loai">
+                    <h2>Có thể bạn chưa xem</h2>
+                    <div class="danh-sach-phim">
+                        <div class="phim">
+                            <img class="phim-poster" src="../anh/hoathinh.jpg">
+                            <img class="phim-poster" src="../anh/hoathinh.jpg">
+                            <img class="phim-poster" src="../anh/hoathinh.jpg">
+                            <img class="phim-poster" src="../anh/hoathinh.jpg">
+                            <img class="phim-poster" src="../anh/hoathinh.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="the-loai">
+                <div class="ten-the-loai">
+                    <h2>Có thể bạn chưa xem</h2>
+                    <div class="danh-sach-phim">
+                        <div class="phim">
+                            <img class="phim-poster" src="../anh/hoathinh.jpg">
+                            <img class="phim-poster" src="../anh/hoathinh.jpg">
+                            <img class="phim-poster" src="../anh/hoathinh.jpg">
+                            <img class="phim-poster" src="../anh/hoathinh.jpg">
+                            <img class="phim-poster" src="../anh/hoathinh.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="the-loai">
+                <div class="ten-the-loai">
+                    <h2>Nhân vật</h2>
+                    <div class="danh-sach-nhan-vat">
+                        <div class="phim">
+                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
+                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
+                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
+                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
+                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
