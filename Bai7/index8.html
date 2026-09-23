@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript-1</title>
+</head>
+
+<body>
+
+    <!-- Internal JavaScript -->
+    <script>
+        // in ra màn hình
+        document.writeln("Hello World!  <br>");
+        // khai bao bien
+        var name = "Nhung  <br>";
+        document.writeln(name);
+
+        ten = "Nhi <br>";
+        document.writeln(ten);
+
+        var year = 2026;
+        document.writeln(year);
+
+        // phép toán
+
+        var soThuNhat = 10;
+        var soThuHai = 5;
+        var ketQua = 0;
+        // cong +
+        document.write("<br> Ket qua soThu1 + soThu2 la:");
+        ketQua = soThuNhat + soThuHai;
+        document.write(ketQua);
+
+        // tru -
+        document.write("<br> Ket qua soThu1 - soThu2 la:");
+        ketQua = soThuNhat - soThuHai;
+        document.write(ketQua);
+
+        // nhan *
+        document.write("<br> Ket qua soThu1 * soThu2 la:");
+        ketQua = soThuNhat * soThuHai;
+        document.write(ketQua);
+
+        // chia /
+        document.write("<br> Ket qua soThu1 / soThu2 la:");
+        ketQua = soThuNhat / soThuHai;
+        document.write(ketQua);
+
+        // %
+        document.write("<br> Ket qua soThu1 % soThu2 la:");
+        ketQua = soThuNhat % soThuHai;
+        document.write(ketQua);
+
+        // ++: phụ thuộc vài vị trí ta đặt dấu ++
+        // nếu đặt sau biến nó sẽ in ra biến đó rồi mới in ra biến cộng đơn vị
+        document.writeln("<br>");
+        document.writeln(soThuNhat++);
+        document.writeln("<br>");
+        document.writeln(soThuNhat);
+
+        // nếu đặt trước biến nó cộng thêm 1 đơn vị rồi mới in
+        document.writeln("<br>");
+        document.writeln(++soThuNhat);
+
+        // -- giống ++
+        document.writeln("<br>");
+        document.writeln(soThuNhat--);
+        document.writeln("<br>");
+        document.writeln(soThuNhat);
+
+        document.writeln("<br>");
+        document.writeln(--soThuNhat);
+        //+=
+        soThuNhat += soThuHai;
+        document.writeln(soThuNhat);
+
+        //-=
+        soThuNhat -= soThuHai;
+        document.writeln(soThuNhat);
+
+        var ho = "Tran";
+        document.writeln("<br>" + ho + " " + ten);
+        document.writeln("<br>");
+        document.writeln(ho.length);
+
+        // kiểm tra kiểu dữ liệu biến
+        document.writeln(typeof (ho));
+
+        // tìm vị trí của các kí tự
+        var hoVaTen = "Nguyen Thi Nhung"
+        // có kí tự trong chuỗi in ra stt của nó
+        document.writeln(hoVaTen.indexOf("Nhung"));
+        document.writeln("<br>");
+        // không có kí tự trong chuỗi in ra -1
+        document.writeln(hoVaTen.indexOf("m"));
+        document.writeln("<br>");
+        // cách tìm vị trí của các kí tự khác in ra true/false
+        document.writeln(hoVaTen.includes("N"));
+        document.writeln("<br>");
+
+        document.writeln(hoVaTen.startsWith("Nguyen"));
+        document.writeln("<br>");
+        // thay thế kí tự
+        document.write(hoVaTen.replace("Nguyen", "Tran"));
+
+        // viết in hết cả chuỗi
+        document.writeln("<br>");
+        document.write(hoVaTen.toUpperCase());
+
+        // viết thường
+        document.writeln("<br>");
+        // document.write(hoVaTen.toLocaleLowerCase());
+        document.write(hoVaTen.toLowerCase());
+    </script>
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
