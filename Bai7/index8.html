@@ -201,7 +201,7 @@
 
 
         // == != < >
-        //  === só sánh cả giá trị và kiểu dữ liệu
+        //  === so sánh cả giá trị và kiểu dữ liệu
         var soThuNhat = 10;
         var soThuHai = 5;
         document.writeln("<br>");
@@ -217,14 +217,80 @@
             document.writeln("Đi học");
         }
 
+        // document.writeln("<br>");
+        // var so = 5;
+        // if (so % 2 == 0) {
+        //     document.writeln(so + "Đây là số chẵn");
+        // } else {
+        //     document.writeln(so + "Đây là số lẻ");
+        // }
+        var so = "200000000000000000000001";
+        var doDai = so.length;
+        var soCuoiCung = so[doDai - 1];
         document.writeln("<br>");
-        var so = 5;
-        if (so % 2 == 0) {
-            document.writeln(so + "Đây là số chẵn");
-        } else {
-            document.writeln(so + "Đây là số lẻ");
+        document.write(doDai);
+        document.writeln("<br>");
+        document.write(soCuoiCung);
+
+        // switch case
+        document.writeln("<br>");
+        var d = new Date();
+        var theDay = d.getDay();
+        switch (theDay) {
+            case 5:
+                document.write("Finally Friday");
+                break;
+            case 6:
+                document.write("Super Sarturday");
+                break;
+            case 0:
+                document.write("Sleep Sunday");
+                break;
+                defaulf:
+                document.write("I'm looking forword to this weekend");
         }
-        // về xem vì sao var so = 200000000000000000000001; là số chẵn
+
+        for (var index = 1; index <= 10; index++) {
+            document.writeln("<br>");
+            document.write("nhungnguyen " + index);
+        }
+
+        // var mang = [1, 2, 3, 4, 5, "nhung", "nhi", "dung"];
+        for (var i = 0; i < mang.length; i++) {
+            if (isNaN(mang[i]) == true) {
+                document.writeln("<br>");
+                document.writeln("xin chào " + mang[i]);
+            }
+        }
+
+        // while kiểm tra trước mới làm
+        var i = 0;
+        while (i <= 10) {
+            document.writeln("The number is" + i);
+            document.write("<br />");
+            i = i + 1;
+        }
+
+        //do while làm trước mới kiểm tra
+        var j = 0;
+        do {
+            document.writeln("The number is" + j);
+            document.write("<br />");
+            j = j + 1;
+        } while (j <= 10)
+
+        // popup boxes
+        // alert("hello");
+
+        // var r = confirm("press a button");
+        // if(r == true){
+        //     document.writeln("you pressed OK!");
+        // }else{
+        //     document.writeln("you pressed cancel!");
+        // }
+
+        var r = prompt("Nhập vào họ và tên", "Nhập tên ở đây");
+        document.writeln(r);
     </script>
     <!-- External JavaScript -->
     <script src="script.js"></script>

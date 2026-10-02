@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-2</title>
+</head>
+
+<body>
+    <script>
+        // function
+        // không tham số
+        function sayHello() {
+            document.writeln("Hello");
+        }
+        sayHello();
+        sayHello();
+        sayHello();
+
+        // có tham số
+        function sayHello1(ten) {
+            document.writeln("<br> Xin chào bạn " + ten)
+        }
+        sayHello1("Nhi");
+
+        document.write("<br>");
+         var soThuNha = Number(a);
+         var soThuHai = Number(b);
+        var soThuNhat = prompt("Nhập số thứ 1: ", "");
+        var soThuHai = prompt("Nhập số thứ 2: ", "");
+        var tinhTong = soThuNhat + soThuHai;
+        tinhTong(soThuNhat, soThuHai);
+        function tinhTong(a, b) {
+            if (isNaN(a) == false && isNaN(b) == false) {
+                document.writeln(a + b);
+            }
+        }
+        
+
+        // function tinhTongHaiSo(a, b) {
+        //     var so1 = Number(a);
+        //     var so2 = Number(b);
+        //     if (a === null || a.trim() === "" || b === null || b.trim() === "") {
+        //         return "Lỗi: Bạn chưa nhập đủ 2 giá trị!";
+        //     }
+        //     var laSo1 = !isNaN(so1);
+        //     var laSo2 = !isNaN(so2);
+        //     if (laSo1 && laSo2) {
+        //         var tong = so1 + so2;
+        //         return "Cả hai đều là SỐ.\nTổng của " + so1 + " + " + so2 + " = " + tong;
+        //     } else if (!laSo1 && !laSo2) {
+        //         return "Cả hai giá trị ('" + a + "' và '" + b + "') đều là CHỮ (không phải số).";
+        //     } else if (!laSo1) {
+        //         return "Giá trị thứ nhất ('" + a + "') là CHỮ, giá trị thứ hai là SỐ.";
+        //     } else {
+        //         return "Giá trị thứ nhất là SỐ, giá trị thứ hai ('" + b + "') là CHỮ.";
+        //     }
+        // }
+        // var nhapA = prompt("Nhập vào giá trị thứ nhất:");
+        // var nhapB = prompt("Nhập vào giá trị thứ hai:");
+        // var ketQua = tinhTongHaiSo(nhapA, nhapB);
+        // alert(ketQua);
+        // document.write("<h3>Kết quả:</h3><p>" + ketQua.replace(/\n/g, "<br>") + "</p>");
+    </script>
+
+</body>
+
+</html>
+<!-- viết hàm tính điểm chữ trên ba đầu điểm a, b, c
+  tổng= a*0.6+b*0.3+c*0.1 
+ tính đổi ra điiểm chữ tương ứng -->
