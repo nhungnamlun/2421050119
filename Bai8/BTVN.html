@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-2</title>
+</head>
+
+<body>
+    <script>
+  
+    // function diemChu(a, b, c) {
+    //     var tong = a * 0.6 + b * 0.3 + c * 0.1;
+    //     var chu;
+
+    //     if (tong >= 9) {
+    //         chu = "A+";
+    //     } else if (tong >= 8.5) {
+    //         chu = "A";
+    //     } else if (tong >= 8) {
+    //         chu = "B+";
+    //     } else if (tong >= 7) {
+    //         chu = "B";
+    //     } else if (tong >= 6.5) {
+    //         chu = "C+";
+    //     } else if (tong >= 5.5) {
+    //         chu = "C";
+    //     } else if (tong >= 5) {
+    //         chu = "D+";
+    //     } else if (tong >= 4) {
+    //         chu = "D";
+    //     } else {
+    //         chu = "F";
+    //     }
+
+    //     return "Điểm tổng: " + tong.toFixed(2) + " → Điểm chữ: " + chu;
+    // }
+
+    // var a = Number(prompt("Nhập điểm A", "Nhập số ở đây"));
+    // var b = Number(prompt("Nhập điểm B", "Nhập số ở đây"));
+    // var c = Number(prompt("Nhập điểm C", "Nhập số ở đây"));
+    // alert(diemChu(a, b, c));
+    
+
+    
+        function diem(A,B,C){
+            var cal = A*0.6+B*0.3+C*0.1;
+            var diemChu = "";
+            var xepLoai = "";
+            var diemHe4 = "";
+            if (cal < 0 || cal > 10) {
+                document.write("Điểm không hợp lệ!");
+            } else if (cal >= 9.0) {
+                diemChu = "A+"; diemHe4 = 4.0; xepLoai = "Đạt";
+            } else if (cal >= 8.5) { // Tự động hiểu là < 9.0
+                diemChu = "A";  diemHe4 = 3.7; xepLoai = "Đạt";
+            } else if (cal >= 8.0) {
+                diemChu = "B+"; diemHe4 = 3.5; xepLoai = "Đạt";
+            } else if (cal >= 7.0) {
+                diemChu = "B";  diemHe4 = 3.0; xepLoai = "Đạt";
+            } else if (cal >= 6.5) {
+                diemChu = "C+"; diemHe4 = 2.5; xepLoai = "Đạt";
+            } else if (cal >= 5.5) {
+                diemChu = "C";  diemHe4 = 2.0; xepLoai = "Đạt";
+            } else if (cal >= 5.0) {
+                diemChu = "D+"; diemHe4 = 1.5; xepLoai = "Đạt";
+            } else if (cal >= 4.0) {
+                diemChu = "D";  diemHe4 = 1.0; xepLoai = "Đạt";
+            } else {
+                diemChu = "F";  diemHe4 = 0;   xepLoai = "Không đạt";
+            }
+            return "Điểm hệ 10: "+cal+" || Điểm hệ 4: "+diemHe4+" || Điểm chữ: "+diemChu+" || Xếp loại: "+xepLoai;
+        }
+        var A = Number(prompt("Nhập điểm A: ","Nhập ở đây!"));
+        var B = Number(prompt("Nhập điểm B: ","Nhập ở đây!"));
+        var C = Number(prompt("Nhập điểm C: ","Nhập ở đây!"));
+        document.write("<br>"+diem(A,B,C));
+</script>
+
+</body>
+
+</html>
