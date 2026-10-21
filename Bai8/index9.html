@@ -8,60 +8,45 @@
 </head>
 
 <body>
+
     <script>
+
         // function
         // không tham số
-        function sayHello() {
-            document.writeln("Hello");
+        function sayHello(){
+        document.writeln("Hello")
         }
+        // gọi hàm để hiển thị
         sayHello();
         sayHello();
         sayHello();
-
-        // có tham số
-        function sayHello1(ten) {
-            document.writeln("<br> Xin chào bạn " + ten)
+        //có tham số
+        function sayHello2(ten){
+             document.writeln("<br>Xin chào bạn " +ten);
         }
-        sayHello1("Nhi");
-
-        document.write("<br>");
-         var soThuNha = Number(a);
-         var soThuHai = Number(b);
-        var soThuNhat = prompt("Nhập số thứ 1: ", "");
-        var soThuHai = prompt("Nhập số thứ 2: ", "");
-        var tinhTong = soThuNhat + soThuHai;
-        tinhTong(soThuNhat, soThuHai);
-        function tinhTong(a, b) {
-            if (isNaN(a) == false && isNaN(b) == false) {
-                document.writeln(a + b);
+        sayHello2("Nguyễn Thị Nhung");
+        sayHello2("Nhi");
+        sayHello2("Mọi người");
+        //
+         document.writeln("<br>");
+        //baitapvenha
+        function tinhTong(a,b){
+            if(isNaN(a)==false && isNaN(b)==false){
+                  document.write(a+b);
             }
         }
-        
+         var soThuNhat=prompt("nhập số thứ nhất","");
+         var soThuHai=prompt("nhập số thứ hai ","");
+         tinhTong(soThuNhat,soThuHai);
+          document.writeln("<br>");
 
-        // function tinhTongHaiSo(a, b) {
-        //     var so1 = Number(a);
-        //     var so2 = Number(b);
-        //     if (a === null || a.trim() === "" || b === null || b.trim() === "") {
-        //         return "Lỗi: Bạn chưa nhập đủ 2 giá trị!";
-        //     }
-        //     var laSo1 = !isNaN(so1);
-        //     var laSo2 = !isNaN(so2);
-        //     if (laSo1 && laSo2) {
-        //         var tong = so1 + so2;
-        //         return "Cả hai đều là SỐ.\nTổng của " + so1 + " + " + so2 + " = " + tong;
-        //     } else if (!laSo1 && !laSo2) {
-        //         return "Cả hai giá trị ('" + a + "' và '" + b + "') đều là CHỮ (không phải số).";
-        //     } else if (!laSo1) {
-        //         return "Giá trị thứ nhất ('" + a + "') là CHỮ, giá trị thứ hai là SỐ.";
-        //     } else {
-        //         return "Giá trị thứ nhất là SỐ, giá trị thứ hai ('" + b + "') là CHỮ.";
-        //     }
-        // }
-        // var nhapA = prompt("Nhập vào giá trị thứ nhất:");
-        // var nhapB = prompt("Nhập vào giá trị thứ hai:");
-        // var ketQua = tinhTongHaiSo(nhapA, nhapB);
-        // alert(ketQua);
-        // document.write("<h3>Kết quả:</h3><p>" + ketQua.replace(/\n/g, "<br>") + "</p>");
+
+        //chuyen chuoi thanh so
+        // parseInt("42")
+        // parseInt("42.33")
+        // parseFloat("42.33")
+        // 3+3+parseInt("3")
+
     </script>
 
 </body>

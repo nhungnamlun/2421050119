@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        Nhập điểm A: <input id="diemA" type="number">
+    </div>
+    <div>
+        Nhập điểm B: <input id="diemB" type="number">
+    </div>
+    <div>
+        Nhập điểm C: <input id="diemC" type="number">
+    </div>
+    <div>
+        <button onclick="tinhDiem()">Tính điểm</button>
+    </div>
+    <div>
+        Kết quả:<input id="ketQua" type="text">
+    </div>
+    <div>
+        Năm sinh:<input id="namSinh" type="number">
+    </div>
+    <div>
+        <button onclick="tinhTuoi()">Tính tuổi</button>
+    </div>
+    <div>
+        Tuổi: <input id="tuoi" type="text">
+    </div>
+    <script>
+        function tinhDiem() {
+            var a = parseFloat(document.getElementById("diemA").value);
+            var b = parseFloat(document.getElementById("diemB").value);
+            var c = parseFloat(document.getElementById("diemC").value);
+
+            // document.write(typeof(a))
+            // document.write("Điểm A nhập vào là: " + a);
+            // document.write("Điểm B nhập vào là: " + b);
+            // document.write("Điểm C nhập vào là: " + c);
+
+            // tinhDiemChu(a, b, c);
+
+            document.getElementById("ketQua").value = tinhDiemChu(a, b, c);
+        }
+        function tinhDiemChu(a, b, c) {
+            var tong = a * 0.6 + b * 0.3 + c * 0.1;
+            var kq = "";
+            if (tong >= 0 && tong < 4) {
+                kq = "F";
+            } else if (tong >= 4 && tong < 5) {
+                kq = "D";
+            } else if (tong >= 5 && tong < 7) {
+                kq = "C";
+            } else if (tong >= 7 && tong < 8) {
+                kq = "B";
+            } else if (tong >= 8 && tong <= 10) {
+                kq = "A";
+            } else {
+                kq = "Điểm không hợp lệ!"
+            }
+            return kq;
+        }
+
+        function tinhTuoi() {
+            var namSinh = parseInt(document.getElementById("namSinh").value);
+            document.getElementById("tuoi").value = tinhTuoi();
+                var year = year().getFullYear();
+                
+                var tuoi = year - Number(namSinh);
+                document.getElementById('tuoi').value = tuoi;
+            return 
+        }
+
+    </script>
+</body>
+
+</html>
