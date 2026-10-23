@@ -66,14 +66,13 @@
             return kq;
         }
 
+      
         function tinhTuoi() {
             var namSinh = parseInt(document.getElementById("namSinh").value);
-            document.getElementById("tuoi").value = tinhTuoi();
-                var year = year().getFullYear();
-                
-                var tuoi = year - Number(namSinh);
-                document.getElementById('tuoi').value = tuoi;
-            return 
+            var homNay=new Date();
+            var namNay=homNay.getFullYear();
+            tuoi=namNay-namSinh;
+            document.getElementById("tuoi").value = tuoi;
         }
 
     </script>

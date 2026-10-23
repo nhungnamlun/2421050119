@@ -33,17 +33,13 @@
         font-weight: bold;
     }
 
-    .dang-chon {
-        background-color: #4E4B52;
-    }
-
     .muc {
         padding: 15px;
         border-radius: 25px;
     }
 
     .muc:hover {
-        background-color: grey;
+    background-color: grey;
     }
 
     .logo {
@@ -63,9 +59,10 @@
         border-radius: 20px;
     }
 
-    .banner-anh {
+    .banner-img {
         width: 100% ;
         border-radius:20px;
+        height:700px;
     }
 
     .danh-sach-the-loai {
@@ -129,9 +126,16 @@
             </div>
         </div>
     </header>
+    <!-- Nội dung trang chính -->
     <main>
-        <div class="banner">
-            <img class="banner-anh" src="../anh/anh1.jpg" alt="">
+        <div onclick= "xemTrailer()" class="banner">
+            <img class="banner-img" src="../anh/anh1.jpg" alt="">
+        </div>
+        <!-- Trailer -->
+         <div style="display: none" class="banner">
+        <iframe class="banner-img"  src="https://www.youtube.com/embed/bBHouM1lwLo" 
+        title="🥖 Bảo tàng nghệ thuật làm bánh | Đi tuần | Hoạt hình thiếu nhi 👮 Cảnh sát trưởng Labrador Vietnam 🚔" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div class="danh-sach-the-loai">
             <div class="the-loai">
@@ -139,13 +143,13 @@
                     <h2>Có thể bạn chưa xem</h2>
                     <div class="danh-sach-phim">
                         <div class="phim">
-                            <img class="phim-poster" src="../anh/anh2.jpg">
-                            <img class="phim-poster" src="../anh/anh3.jpg">
-                            <img class="phim-poster" src="../anh/anh4.jpg">
-                            <img class="phim-poster" src="../anh/anh5.png">
-                            <img class="phim-poster" src="../anh/anh6.jpg">
-                            <img class="phim-poster" src="../anh/hoathinh.jpg">
-                            <img class="phim-poster" src="../anh/anh7.jpg">
+                            <img class="phim-poster" src="../Netflix/anhNetflix/anh2.jpg">
+                            <img class="phim-poster" src="../Netflix/anhNetflix/anh3.jpg">
+                            <img class="phim-poster" src="../Netflix/anhNetflix/anh4.jpg">
+                            <img class="phim-poster" src="../Netflix/anhNetflix/anh5.png">
+                            <img class="phim-poster" src="../Netflix/anhNetflix/anh6.jpg">
+                            <img class="phim-poster" src="../Netflix/anhNetflix/anh7.jpg">
+                            <img class="phim-poster" src="../Netflix/anhNetflix/anh8.jpg">
                         </div>
                     </div>
                 </div>
@@ -269,6 +273,9 @@
             </div>
         </div>
     </main>
+    <script src="script.js">
+        
+    </script>
 </body>
 
 </html>

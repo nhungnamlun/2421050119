@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai9-Js</title>
+    <style>
+        img {
+            width: 20%;
+        }
+
+        .noi-dung {
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="noi-dung">
+        <h1 class="che-do">Chế độ sáng</h1> <br>
+        <img class="anh" src="../anh/mattroi.png"> <br>
+        <div class="chuc-nang">
+            <button onclick="doiCheDo()">Đổi chế độ</button>
+        </div>
+    </div>
+    <script>
+        // cheDo (boolean:true-sáng / false-tối)
+        var cheDo = true;
+        function doiCheDo() {
+            if (cheDo == true) {
+                document.getElementsByTagName("body")[0].style = "background-color: black";
+                document.getElementsByClassName("che-do")[0].style = "color: white";
+                document.getElementsByClassName("che-do")[0].innerHTML = "Chế độ tối";
+                document.getElementsByTagName("img")[0].src = "../anh/mattrang.png";
+                cheDo = false;
+            } else {
+                document.getElementsByTagName("body")[0].style = "background-color: white";
+                document.getElementsByClassName("che-do")[0].style = "color: black";
+                document.getElementsByClassName("che-do")[0].innerHTML = "Chế độ sáng";
+                document.getElementsByTagName("img")[0].src = "../anh/mattroi.png";
+                cheDo = true;
+            }
+        }
+    </script>
+</body>
+
+</html>
+<!-- //class dùng chung lại đc
+//id chỉ dùng 1 lần 
+biến đổi chế độ phải để ở ngoài vì khi bấm vào nó thay đổi giá trị của giá trị này nếu để trong function nó sẽ luôn là 1 chế dộ-->
