@@ -1,0 +1,17 @@
+.video{
+    display: block;
+    width:70%;
+    height:500px;
+    margin:auto;
+}
+
+.danh-sach{
+    width:80%;
+    display: flex;
+    margin:50px auto;
+    justify-content:space-between; 
+}
+.anh{
+    width:24%;
+    height:100px;
+}

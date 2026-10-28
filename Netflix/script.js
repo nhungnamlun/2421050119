@@ -5,11 +5,13 @@ var danhSachPhim = [
         thoiLuong: 20,
         banner: "../anh/anh1.jpg",
         trailer: "https://www.youtube.com/embed/bBHouM1lwLo"
+    },
 
-    id: 2,
+    {
+        id: 2,
         ten: "Zootopia",
         thoiLuong: 15,
-        banner: ""
+        banner: "https://www.youtube.com/embed/GxNMcEFVzkw"
     }
 ]
 

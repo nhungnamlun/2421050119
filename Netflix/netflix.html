@@ -4,111 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-<style>
-    body {
-        background-color: #2F2C38;
-        color: white;
-    }
-
-    header {
-        display: flex;
-        justify-content: space-around;
-        align-item: center;
-    }
-
-    .danh-sach-muc {
-        list-style: none;
-        display: flex;
-        gap: 30px;
-        align-item: center;
-    }
-
-    .lien-ket {
-        color: #DBDBDD;
-
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    .muc {
-        padding: 15px;
-        border-radius: 25px;
-    }
-
-    .muc:hover {
-    background-color: grey;
-    }
-
-    .logo {
-        width: 10%;
-        padding: 0;
-    }
-
-    .avata {
-        width: 80%;
-        border radius: 30% ;
-    }
-
-    .banner {
-        background-color: aliceblue;
-        width: 95%;
-        margin: 20px auto;
-        border-radius: 20px;
-    }
-
-    .banner-img {
-        width: 100% ;
-        border-radius:20px;
-        height:700px;
-    }
-
-    .danh-sach-the-loai {
-        width: 95%;
-        height: 20vh;
-        margin: 20px auto;
-    }
-
-    .phim {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .phim-poster {
-        width: 14%;
-        height: 15vh;
-        background-color: antiquewhite;
-        border-radius: 20px;
-        justify-content:space-around;
-    }
-
-    .danh-sach-nhan-vat {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .nhan-vat {
-        width: 135px;
-        height: 135px;
-        border-radius: 50%;
-        margin:4px;
-    }
-
-    .thong-tin{
-        display: flex;
-        justify-content:center;
-        gap: 40px;
-        color:gray;
-    }
-</style>
 
 <body>
     <header>
         <nav class="danh-muc">
             <ul class="danh-sach-muc">
-                <img class="logo" src="../anh/netflix.svg">
+                <img class="logo" src="anhNetflix/netflix.svg">
                 <li class="muc"><a href="#" class="lien-ket dang-chon">Trang chủ</a></li>
                 <li class="muc"><a href="#" class="lien-ket">Nhân vật</a></li>
                 <li class="muc"><a href="#" class="lien-ket">Series</a></li>
@@ -122,14 +26,14 @@
         <div class="chuc-nang">
             <div class="tim-kiem"></div>
             <div class="thong-tin">
-                <img class="avata" src="../anh/Treem.jpg" alt="">
+                <img class="avata" src="anhNetflix/Treem.jpg" alt="">
             </div>
         </div>
     </header>
     <!-- Nội dung trang chính -->
     <main>
         <div onclick= "xemTrailer()" class="banner">
-            <img class="banner-img" src="../anh/anh1.jpg" alt="">
+            <img class="banner-img" src="anhNetflix/anhTrailer.jpg" alt="">
         </div>
         <!-- Trailer -->
          <div style="display: none" class="banner">
@@ -143,13 +47,13 @@
                     <h2>Có thể bạn chưa xem</h2>
                     <div class="danh-sach-phim">
                         <div class="phim">
-                            <img class="phim-poster" src="../Netflix/anhNetflix/anh2.jpg">
-                            <img class="phim-poster" src="../Netflix/anhNetflix/anh3.jpg">
-                            <img class="phim-poster" src="../Netflix/anhNetflix/anh4.jpg">
-                            <img class="phim-poster" src="../Netflix/anhNetflix/anh5.png">
-                            <img class="phim-poster" src="../Netflix/anhNetflix/anh6.jpg">
-                            <img class="phim-poster" src="../Netflix/anhNetflix/anh7.jpg">
-                            <img class="phim-poster" src="../Netflix/anhNetflix/anh8.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h1-1.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h1-2.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h1-3.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h1-4.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h1-5.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h1-6.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h1-7.jpg">
                         </div>
                     </div>
                 </div>
@@ -160,13 +64,13 @@
                     <h2>Phim hài hước</h2>
                     <div class="danh-sach-phim">
                         <div class="phim">
-                            <img class="phim-poster" src="../anh/anh2.jpg">
-                            <img class="phim-poster" src="../anh/anh3.jpg">
-                            <img class="phim-poster" src="../anh/anh4.jpg">
-                            <img class="phim-poster" src="../anh/anh5.png">
-                            <img class="phim-poster" src="../anh/anh6.jpg">
-                            <img class="phim-poster" src="../anh/hoathinh.jpg">
-                            <img class="phim-poster" src="../anh/anh7.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h2-1.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h2-2.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h2-3.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h2-4.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h2-5.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h2-6.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h2-7.jpg">
                         </div>
                     </div>
                 </div>
@@ -177,13 +81,13 @@
                     <h2>Hoạt hình</h2>
                     <div class="danh-sach-phim">
                         <div class="phim">
-                            <img class="phim-poster" src="../anh/anh2.jpg">
-                            <img class="phim-poster" src="../anh/anh3.jpg">
-                            <img class="phim-poster" src="../anh/anh4.jpg">
-                            <img class="phim-poster" src="../anh/anh5.png">
-                            <img class="phim-poster" src="../anh/anh6.jpg">
-                            <img class="phim-poster" src="../anh/hoathinh.jpg">
-                            <img class="phim-poster" src="../anh/anh7.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h3-1.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h3-2.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h3-3.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h3-4.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h3-5.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h3-6.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h3-7.jpg">
                         </div>
                     </div>
                 </div>
@@ -194,13 +98,13 @@
                     <h2>Top 10 phim Trẻ em tại Việt Nam hôm nay</h2>
                     <div class="danh-sach-phim">
                         <div class="phim">
-                            <img class="phim-poster" src="../anh/anh2.jpg">
-                            <img class="phim-poster" src="../anh/anh3.jpg">
-                            <img class="phim-poster" src="../anh/anh4.jpg">
-                            <img class="phim-poster" src="../anh/anh5.png">
-                            <img class="phim-poster" src="../anh/anh6.jpg">
-                            <img class="phim-poster" src="../anh/hoathinh.jpg">
-                            <img class="phim-poster" src="../anh/anh7.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h4-1.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h4-2.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h4-3.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h4-4.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h4-5.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h4-6.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h4-7.jpg">
                         </div>
                     </div>
                 </div>
@@ -211,13 +115,13 @@
                     <h2>Giáo dục và giải trí</h2>
                     <div class="danh-sach-phim">
                         <div class="phim">
-                            <img class="phim-poster" src="../anh/anh2.jpg">
-                            <img class="phim-poster" src="../anh/anh3.jpg">
-                            <img class="phim-poster" src="../anh/anh4.jpg">
-                            <img class="phim-poster" src="../anh/anh5.png">
-                            <img class="phim-poster" src="../anh/anh6.jpg">
-                            <img class="phim-poster" src="../anh/hoathinh.jpg">
-                            <img class="phim-poster" src="../anh/anh7.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h5-1.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h5-2.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h5-3.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h5-4.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h5-5.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h4-7.jpg">
+                            <img class="phim-poster" src="anhNetflix/anh-h3-7.jpg">
                         </div>
                     </div>
                 </div>
@@ -228,16 +132,16 @@
                     <h2>Nhân vật</h2>
                     <div class="danh-sach-nhan-vat">
                         <div class="phim">
-                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
-                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
-                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
-                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
-                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
-                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
-                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
-                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
-                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
-                            <img class="nhan-vat" src="../anh/hoathinh.jpg">
+                            <img class="nhan-vat" src="anhNetflix/anhnhanvat.jpg">
+                            <img class="nhan-vat" src="anhNetflix/anhnhanvat1.jpg">
+                            <img class="nhan-vat" src="anhNetflix/anhnhanvat2.jpg">
+                            <img class="nhan-vat" src="anhNetflix/anhnhanvat3.jpg">
+                            <img class="nhan-vat" src="anhNetflix/anhnhanvat4.jpg">
+                            <img class="nhan-vat" src="anhNetflix/anhnhanvat5.jpg">
+                            <img class="nhan-vat" src="anhNetflix/anhnhanvat6.jpg">
+                            <img class="nhan-vat" src="anhNetflix/anhnhanvat7.jpg">
+                            <img class="nhan-vat" src="anhNetflix/anhnhanvat8.jpg">
+                            <img class="nhan-vat" src="anhNetflix/anhnhanvat9.png">
                         </div>
                     </div>
                 </div>
