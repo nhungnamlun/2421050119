@@ -7,56 +7,265 @@ var danhSachPhim = [
         trailer: "https://www.youtube.com/embed/bBHouM1lwLo"
     },
 
+    // -----------------------------------------------h1-----------------------------------------------------------
+
     {
         id: 1,
-        ten: "Zootopia",
+        ten: "NGƯỜI LÙN NHƯNG ANH LÀ VUA ĐẬP BÓNG (P.1)",
         thoiLuong: 15,
         banner: "anhNetflix/anh-h1-1.jpg",
-        trailer:"https://www.youtube.com/embed/GxNMcEFVzkw"
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
     },
     {
         id: 2,
-        ten: "Zootopia",
+        ten: "LEGO Ninjago - Những con rồng trỗi dậy",
         thoiLuong: 15,
         banner: "anhNetflix/anh-h1-1.jpg",
-        trailer:"https://www.youtube.com/embed/zepHPnUDROE?si=qqvnPIBk4Ctvfr5J" 
+        trailer: "https://www.youtube.com/embed/mjIH-L-hiqY?si=wXKKspKtPSBAFBEV"
     },
     {
         id: 3,
-        ten: "Zootopia",
+        ten: "KPOP DEMON HUNTERS",
         thoiLuong: 15,
         banner: "anhNetflix/anh-h1-1.jpg",
-        trailer:"https://www.youtube.com/embed/NbKCJtFkQ4s?si=2BtvX90N1Nk52IkE"
+        trailer: "https://www.youtube.com/embed/ZQ_SjvoIR4k?si=zp-v8btkbRs3LOLP"
     },
     {
         id: 4,
-        ten: "Zootopia",
+        ten: "SWAPPED",
         thoiLuong: 15,
         banner: "anhNetflix/anh-h1-1.jpg",
-        trailer:"https://www.youtube.com/embed/_XX248bq6Pw?si=nV8G9TBeemYobIb-" 
+        trailer: "https://www.youtube.com/embed/LfeG7gPpQOE?si=DMqhz2NNi1j9FsUo"
     },
     {
         id: 5,
-        ten: "Zootopia",
+        ten: "Sonic Đại Chiến Bác Học Điên Phá Vỡ Lăng Kính Nghịch Đảo",
         thoiLuong: 15,
         banner: "anhNetflix/anh-h1-1.jpg",
-        trailer:"https://www.youtube.com/embed/9WLb1qf2kK4?si=1Ovhw7SM3pMOS_oM"
+        trailer: "https://www.youtube.com/embed/XUGonvsPB9w?si=6-7zLikYIF1BPJV3"
     },
     {
         id: 6,
+        ten: "Kung Fu Panda 2",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/1lXkUnbbgBI?si=SAK2Hr-vT03ONKKy"
+    },
+    {
+        id: 7,
+        ten: "Thợ Săn Yêu Tinh Bảo Vệ Thế Giới Khỏi Các Thế Lực Bóng Tối",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/jdbJDEoQns8?si=FLnGJbD8KljPEKFF"
+    },
+
+
+    // -----------------------------------------------h2-----------------------------------------------------------
+    {
+        id: 7,
         ten: "Zootopia",
         thoiLuong: 15,
         banner: "anhNetflix/anh-h1-1.jpg",
-        trailer:"https://www.youtube.com/embed/GxNMcEFVzkw"
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
     },
     {
         id: 7,
         ten: "Zootopia",
         thoiLuong: 15,
         banner: "anhNetflix/anh-h1-1.jpg",
-        trailer:"https://www.youtube.com/embed/GxNMcEFVzkw"
-    }
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
 
+    // -----------------------------------------------h3-----------------------------------------------------------
+
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+
+    // -----------------------------------------------h4-----------------------------------------------------------
+
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+
+    // -----------------------------------------------h5-----------------------------------------------------------
+
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    },
+    {
+        id: 7,
+        ten: "Zootopia",
+        thoiLuong: 15,
+        banner: "anhNetflix/anh-h1-1.jpg",
+        trailer: "https://www.youtube.com/embed/GxNMcEFVzkw"
+    }
 ]
 
 function xemTrailer() {
@@ -66,9 +275,9 @@ function xemTrailer() {
     document.getElementsByClassName("banner")[1].style = "display:block";
 }
 
-function chonTrailer(id){
-    for (let i= 0; i< danhSachPhim.length; i++){
-        if(danhSachPhim[i].id == id){
+function chonTrailer(id) {
+    for (let i = 0; i < danhSachPhim.length; i++) {
+        if (danhSachPhim[i].id == id) {
             document.getElementsByClassName("banner-img")[0].src = danhSachPhim[i].banner + ".jpg";
             document.getElementsByTagName("iframe")[0].src = danhSachPhim[i].trailer;
             xemTrailer();
