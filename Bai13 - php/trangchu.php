@@ -6,12 +6,6 @@
     <title>Trang chủ</title>
 </head>
 <body>
-    <h1>Trang chủ</h1>
-    <?php
-    session_start();
-    if(!isset($SESSION['dangnhap']) && isset($_POST['thanhcong'])){
-        header('Location: dangnhap.php');
-    }
-    ?>
+    <h1>Trang chủ</h1>   
 </body>
 </html>
