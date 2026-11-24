@@ -59,8 +59,8 @@ while($row = mysqli_fetch_assoc($result)){
         <td><?php echo $row['so_dien_thoai']?></td>
         <td><?php echo $row['gioi_tinh']==true?"Nam":"Nữ" ?></td>
         <td>
-            <a class = "capnhat" href = "index.php?page_layout=capnhattaikhoan$id=<?php echo $row['id']?>">Cập nhật</a>
-            <a class = "xoa" href = "xoataikhoan.php=<?php echo $row['id']?>">Xóa</a>
+            <a href="index.php?page_layout=capnhattaikhoan&id=<?php echo $row['id']?>" class="capnhat">Cập nhật</a>
+            <a href="index.php?page_layout=xoataikhoan&id=<?php echo $row['id']?>" class="xoa">Xóa</a>
 
         </td>
     </tr>
